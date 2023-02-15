@@ -3,7 +3,7 @@ import axios from "axios";
 const instance = axios.create({
   baseURL: 'https://dummyjson.com/',
 })
-
+//API
 export const API = {
   getProducts(params: any) {
     return instance.get<ResponseType>('products/',
